@@ -3,7 +3,7 @@
 $num1 = 10; 
 $num2 = 10; 
 echo 'La suma es :';
-echo "<br>"; 
-echo ($num1+$num2);
+echo nl2br("La suma es :\n ".$num1+$num2);
+
 ?>
 
